@@ -18,6 +18,7 @@ namespace CloudStorage
 			var container = Console.ReadLine();
 			UploadFiles.UploadAsync(configuration, container).Wait();
 			Console.ReadLine();
+
 		}
     }
 }
